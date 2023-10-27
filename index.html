@@ -32,6 +32,40 @@
             padding: 10px;
             border-radius: 50%;
         }
+        .nav-links li {
+                display: block;
+                margin-bottom: 10px;
+        }
+                /* Responsive styles for mobile view */
+                @media (max-width: 768px) {
+            .navigation {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .nav-links {
+                text-align: center;
+                margin-top: 10px;
+            }
+            .navigation {
+            display: flex;
+            justify-content: space-between;
+            background-color: #007BFF;
+            color: #fff;
+            padding: 10px 20px;
+        }
+
+        .nav-links {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .nav-links li {
+            display: inline;
+            margin-right: 20px;
+        }
+
         </style>
     <script>
         // JavaScript function to scroll to the top of the page
